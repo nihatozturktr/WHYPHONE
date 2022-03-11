@@ -1,8 +1,6 @@
 package interfaces;
 
-import java.sql.SQLOutput;
-
-public interface ISimkart {
+public interface ISimCart {
 
     default void startCall(String number){
         System.out.printf("Calling " + number );
