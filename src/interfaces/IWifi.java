@@ -4,5 +4,5 @@ public interface IWifi {
 
 
     void connect (String internetConnection);
-    void disconnect(String internetConnction);
+    void disconnect(String internetConnection);
 }
