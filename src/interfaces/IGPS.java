@@ -2,6 +2,6 @@ package interfaces;
 
 public interface IGPS {
 
-    String Locate( double latitude, double longtitude);// enlem boylam
+    String locate(double latitude, double longitude);
     void navigate();
 }
